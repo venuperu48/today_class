@@ -14,4 +14,4 @@ RUN sudo apt-get update \
 RUN curl -s -L -O https://bootstrap.pypa.io/pip/2.7/get-pip.py \
   && sudo python2 get-pip.py \
   && rm get-pip.py
-  && rm get-vv.py
+  
